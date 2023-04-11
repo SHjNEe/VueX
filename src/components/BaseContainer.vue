@@ -1,13 +1,15 @@
 <template>
-  <section>
-    <h2>{{ title }}</h2>
-    <slot></slot>
-  </section>
+  <div>
+    <section>
+      <h2>{{ title }}</h2>
+      <slot></slot>
+    </section>
+  </div>
 </template>
 
 <script>
 export default {
-  props: ['title'],
+  props: ["title"],
 };
 </script>
 
